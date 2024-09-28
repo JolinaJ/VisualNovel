@@ -24,7 +24,7 @@ label w0_d3_MeetingRust:
 
                 mc "\"Wouldn’t you like to know...\""
                 
-                hide rust_normal 
+                hide rust_base_1
                 show rust_angry at right
 
                 r "\"Damn, I was just wondering.\""
@@ -90,8 +90,10 @@ label w0_d3_MeetingRust:
                 window show
                 $ r_rep = reputation(r_rep, -2)
                 mc "Your name is Robust, right?"
+
                 hide rust_base_1
                 show rust_angry at right
+                
                 r "Oh, it’s you."
                 r "Of course you don’t remember."
                 r "My name is Rust."
@@ -101,8 +103,10 @@ label w0_d3_MeetingRust:
                 window show
                 $ r_rep = reputation(r_rep, -2)
                 mc "Your name is Robin, right?"
+
                 hide rust_base_1
                 show rust_angry at right
+
                 r "Oh, it’s you."
                 r "Of course you don’t remember."
                 r "My name is Rust."
@@ -111,8 +115,10 @@ label w0_d3_MeetingRust:
             "Rust":
                 window show
                 mc "Your name is Rust, right?"
+
                 hide rust_base_1
                 show rust_angry at right
+
                 r "Oh, it’s you."
                 r "Yeah, that's my name."
                 r "What do you want?"
@@ -121,8 +127,10 @@ label w0_d3_MeetingRust:
                 window show
                 $ r_rep = reputation(r_rep, -2)
                 mc "Your name is Resch, right?"
+
                 hide rust_base_1
                 show rust_angry at right
+
                 r "Oh, it’s you."
                 r "Of course you don’t remember."
                 r "My name is Rust."
